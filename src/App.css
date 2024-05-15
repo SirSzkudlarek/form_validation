@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  gap: 10px;
+}
+
+.form input {
+  margin-left: 20px;
+}
+
+.form button {
+  width: fit-content;
+  padding: 20px 40px;
+}
+
+.form p {
+  color: tomato;
+  font-size: 12px;
+  line-height: 0;
+}
